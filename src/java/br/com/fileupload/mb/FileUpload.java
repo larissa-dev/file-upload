@@ -21,8 +21,8 @@ import org.primefaces.model.UploadedFile;
  *
  * @author Larissa Alves
  */
+@javax.faces.bean.ManagedBean(name="arquivoMB")
 
-@ManagedBean
 @ViewScoped
 public class FileUpload {
     private UploadedFile arquivo;

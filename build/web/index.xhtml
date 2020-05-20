@@ -8,10 +8,10 @@
     </h:head>
     <h:body>
         <h:form>  
-            <p:fileUpload fileUploadListener="#{fileUploadMB.handle}" mode="advanced" dragDropSupport="false"
+            <p:fileUpload fileUploadListener="#{arquivoMB.handleFileUpload}" mode="advanced" dragDropSupport="false"
                   update="textateatxt" sizeLimit="100000" fileLimit="3" allowTypes="/(\.|\/)(txt)$/" />           
                
-            <p:inputTextarea id="textateatxt" value="#{fileUploadMB.conteudo}" rows="10" cols="50" />
+            <p:inputTextarea id="textateatxt" value="#{arquivoMB.conteudo}" rows="10" cols="50" />
 
         </h:form>
     </h:body>
