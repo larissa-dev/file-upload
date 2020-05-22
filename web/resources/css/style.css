@@ -2,35 +2,56 @@
     background: #ffffff;
     color: black;
     font-family: calibri, arial;
+    
 }
 
 .ui-fileupload-buttonbar {    /*barra de botões - header */
     border: 1px solid #368abc;
     background: #e5f0f8;
     align-content: center;
+    
 }
-
 
 .ui-inputtextarea-resizable{    /*text area */
     width: 99.3%;
-    height: 400px;
+    height: 400px;    
+}
+.area{                  /* textAtea*/
+    overflow-y: scroll; 
+    width: 99.3%;
+    height: 400px;  
+    resize: none;
 }
 
 
 .ui-widget-content{ /*barra abaixo de header - exibe arquivos */
-    
     border: 1px solid #368abc;
-    background: f6f9fa;
+    background: #ecf0f3;
     color: #4f4f4f;
     text-shadow: black;
 }
 
-.ui-fileupload-row{ /*Estilização do texto dentro da barra do header */
+
+
+.ui-fileupload-row{ /*Texto dentro da barra do header */
     color: black;
     background-color: #e5f0f8;
 }
 
-.ui-button .ui-button-text{ /*Cores do botão */
+.ui-button .ui-button-text{ /*Botões */
     color: #4c8db9;
+    background-color: #e5f0f8;
+    font-family: Calibri;
+     border-radius: 3px;
+}
+
+
+
+.ui-fileupload-choose .ui-button-text span {
+    display: none !important;
+}
+
+.ui-fileupload-choose .ui-button-text:after{
+     content: 'Selecionar...';  
 }
 
