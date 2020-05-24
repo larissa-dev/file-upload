@@ -46,12 +46,3 @@
 }
 
 
-
-.ui-fileupload-choose .ui-button-text span {
-    display: none !important;
-}
-
-.ui-fileupload-choose .ui-button-text:after{
-     content: 'Selecionar...';  
-}
-
